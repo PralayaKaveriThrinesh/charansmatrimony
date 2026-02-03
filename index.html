@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SoulMate - Find Your Perfect Match</title>
+  <link rel="stylesheet" href="styleflex.css">
+  <!-- Google Fonts - Poppins -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <!-- Font Awesome for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header class="navbar">
+    <h2 class="logo">
+      <i class="fas fa-heart"></i> SoulMate
+    </h2>
+    <div class="search-box-inline">
+      <input type="text" placeholder="Search profiles...">
+      <button><i class="fas fa-search"></i></button>
+    </div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Profiles</a>
+      <a href="#">About</a>
+      <a href="#" class="nav-cta">Sign Up</a>
+    </nav>
+  </header>
+
+  <!-- MAIN CONTAINER -->
+  <div class="main-container">
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+      <h3><i class="fas fa-filter"></i> Search Filters</h3>
+      <ul>
+        <li><i class="fas fa-birthday-cake"></i> Age</li>
+        <li><i class="fas fa-praying-hands"></i> Religion</li>
+        <li><i class="fas fa-briefcase"></i> Profession</li>
+        <li><i class="fas fa-map-marker-alt"></i> Location</li>
+        <li><i class="fas fa-graduation-cap"></i> Education</li>
+      </ul>
+      <button class="filter-btn"><i class="fas fa-check"></i> Apply Filters</button>
+    </aside>
+
+    <!-- PROFILES SECTION -->
+    <section class="gallery">
+
+      <!-- Kavya: 129 likes (highest) -->
+      <div class="card">
+        <div class="card-image">
+          <img src="Kavya.jpg" alt="Profile">
+          <span class="likes-badge"><i class="fas fa-heart"></i> 129</span>
+        </div>
+        <div class="card-content">
+          <h3>Kavya</h3>
+          <p class="age-prof"><i class="fas fa-user"></i> 22 years • Fashion Designer</p>
+          <p class="location"><i class="fas fa-map-marker-alt"></i> Hyderabad, India</p>
+          <p class="dowry"><i class="fas fa-coins"></i> Dowry: ₹1.5 Lakhs</p>
+        </div>
+      </div>
+
+      <!-- Hemanth: 96 likes -->
+      <div class="card">
+        <div class="card-image">
+          <img src="HEM.jpeg" alt="Profile">
+          <span class="likes-badge"><i class="fas fa-heart"></i> 96</span>
+        </div>
+        <div class="card-content">
+          <h3>Hemanth Reddy</h3>
+          <p class="age-prof"><i class="fas fa-user"></i> 21 years • Front End Designer</p>
+          <p class="location"><i class="fas fa-map-marker-alt"></i> Sullurpeta, India</p>
+          <p class="salary"><i class="fas fa-rupee-sign"></i> Salary: ₹20k/month</p>
+        </div>
+      </div>
+
+      <!-- Ramisetty Surya Avinash: 68 likes -->
+      <div class="card">
+        <div class="card-image">
+          <img src="SURYA.jpeg" alt="Profile">
+          <span class="likes-badge"><i class="fas fa-heart"></i> 68</span>
+        </div>
+        <div class="card-content">
+          <h3>Ramisetty Naga Surya Avinash</h3>
+          <p class="age-prof"><i class="fas fa-user"></i> 22 years • Catering Business</p>
+          <p class="location"><i class="fas fa-map-marker-alt"></i> Nellore, India</p>
+          <p class="salary"><i class="fas fa-rupee-sign"></i> Salary: ₹60k - ₹90k</p>
+        </div>
+      </div>
+
+
+      <!-- Chandhu: -16 likes (lowest) -->
+      <div class="card">
+        <div class="card-image">
+          <img src="CHANDHU.jpeg" alt="Profile">
+          <span class="likes-badge negative"><i class="fas fa-heart-broken"></i> -16</span>
+        </div>
+        <div class="card-content">
+          <h3>Chandhu</h3>
+          <p class="age-prof"><i class="fas fa-user"></i> 21 years • Navy Soldier</p>
+          <p class="location"><i class="fas fa-map-marker-alt"></i> Kadapa, India</p>
+          <p class="salary"><i class="fas fa-rupee-sign"></i> Salary: ₹40k/month</p>
+        </div>
+      </div>
+
+    </section>
+  </div>
+
+</body>
+
+</html>
